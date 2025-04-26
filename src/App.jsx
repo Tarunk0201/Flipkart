@@ -1,11 +1,14 @@
 import React from "react";
 
 import "./App.css";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
 
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <Navbar />
+      <Hero />
     </>
   );
 }
