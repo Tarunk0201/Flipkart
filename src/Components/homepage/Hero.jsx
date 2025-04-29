@@ -1,16 +1,16 @@
 import React from "react";
 import Carousel from "./Carousel";
-import Hero1 from "../assets/hero-1.jpg";
-import Hero2 from "../assets/hero-2.jpg";
-import Hero3 from "../assets/hero-3.jpg";
-import Category from "../assets/data/Category";
+import Hero1 from "../../assets/hero-1.jpg";
+import Hero2 from "../../assets/hero-2.jpg";
+import Hero3 from "../../assets/hero-3.jpg";
+import Category from "../../assets/data/Category";
 
 export default function Hero() {
   let slides = [Hero1, Hero2, Hero3];
 
   return (
     <>
-      <div className="bg-gray-100 h-100% pl-4 pt-2 pr-4">
+      <div className=" bg-gray-200 h-100% pl-4 pt-2 pr-4">
         <div className="flex justify-around bg-white pl-5 pr-5">
           {Category.map((Products, index) => (
             <div
