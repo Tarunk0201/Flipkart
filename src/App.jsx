@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Login from "./Components/Login/login";
 import Footer from "./Components/footer";
+import Cart from "./Components/cart/cart";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -14,7 +15,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/Login" element={<Login />} />
+        <Route exact path="/Cart" element={<Cart />} />
       </Routes>
+
       <Footer />
     </>
   );
