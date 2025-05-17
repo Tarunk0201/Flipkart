@@ -5,7 +5,7 @@ import Hero2 from "../../assets/hero-2.jpg";
 import Hero3 from "../../assets/hero-3.jpg";
 import Category from "../../assets/data/Category";
 
-export default function Hero() {
+const Hero = () => {
   let slides = [Hero1, Hero2, Hero3];
 
   return (
@@ -32,4 +32,6 @@ export default function Hero() {
       </div>
     </>
   );
-}
+};
+
+export default Hero;
