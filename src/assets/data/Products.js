@@ -1,0 +1,161 @@
+import Img1 from "../Products/product-img-1.jpg";
+import Img2 from "../Products/product-img-2.jpg";
+import Img3 from "../Products/product-img-3.jpg";
+import Img4 from "../Products/product-img-4.jpg";
+import Img5 from "../Products/product-img-5.jpg";
+import Img6 from "../Products/product-img-6.jpg";
+import Img7 from "../Products/product-img-7.jpg";
+import Img8 from "../Products/product-img-8.jpg";
+import Img9 from "../Products/product-img-9.jpg";
+import Img10 from "../Products/product-img-10.jpg";
+import Img11 from "../Products/product-img-11.jpg";
+import Img12 from "../Products/product-img-12.jpg";
+import Img13 from "../Products/product-img-13.jpg";
+
+const Products = [
+  {
+    id: 1,
+    name: "Premium Basmati Rice",
+    image: Img1,
+    price: 120,
+    originalPrice: 150,
+    rating: 4.5,
+    offer: "20% off",
+    label: "Sale",
+    description: "Long grain basmati rice perfect for biryanis and pilafs.",
+  },
+  {
+    id: 2,
+    name: "Fresh Mango Pulp",
+    image: Img2,
+    price: 80,
+    originalPrice: 100,
+    rating: 4.3,
+    offer: "15% off",
+    label: "Sale",
+    description: "Sweet and rich mango pulp, great for desserts.",
+  },
+  {
+    id: 3,
+    name: "Active Protein Powder",
+    image: Img3,
+    price: 650,
+    originalPrice: 800,
+    rating: 4.7,
+    offer: "18% off",
+    label: "Sale",
+    description: "High-quality protein powder for muscle growth and recovery.",
+  },
+  {
+    id: 4,
+    name: "Lay's Classic Chips",
+    image: Img4,
+    price: 20,
+    originalPrice: 25,
+    rating: 4.2,
+    offer: "10% off",
+    label: "Sale",
+    description: "Crispy potato chips with classic salted flavor.",
+  },
+  {
+    id: 5,
+    name: "5 Star Chocolate Bar",
+    image: Img5,
+    price: 15,
+    originalPrice: 20,
+    rating: 4.6,
+    offer: "25% off",
+    label: "Sale",
+    description: "Chewy chocolate bar filled with caramel and nougat.",
+  },
+  {
+    id: 6,
+    name: "Blueberry Yogurt Cup",
+    image: Img6,
+    price: 40,
+    originalPrice: 50,
+    rating: 4.4,
+    offer: "20% off",
+    label: "Sale",
+    description: "Creamy yogurt infused with real blueberries.",
+  },
+  {
+    id: 7,
+    name: "Cheese Crackers",
+    image: Img7,
+    price: 30,
+    originalPrice: 40,
+    rating: 4.3,
+    offer: "15% off",
+    label: "Sale",
+    description: "Crispy crackers with a rich cheese flavor.",
+  },
+  {
+    id: 8,
+    name: "Kellogg's Cornflakes",
+    image: Img8,
+    price: 90,
+    originalPrice: 110,
+    rating: 4.5,
+    offer: "10% off",
+    label: "Sale",
+    description: "Nutritious and crunchy cornflakes for a healthy breakfast.",
+  },
+  {
+    id: 9,
+    name: "NutriMix Muesli",
+    image: Img9,
+    price: 150,
+    originalPrice: 180,
+    rating: 4.1,
+    offer: "16% off",
+    label: "Sale",
+    description: "A healthy mix of grains, nuts, and dried fruits.",
+  },
+  {
+    id: 10,
+    name: "Amul Cheese Slices",
+    image: Img10,
+    price: 60,
+    originalPrice: 75,
+    rating: 4.7,
+    offer: "20% off",
+    label: "Sale",
+    description: "Delicious cheese slices ideal for sandwiches and burgers.",
+  },
+  {
+    id: 11,
+    name: "Starbucks Coffee Beans",
+    image: Img11,
+    price: 450,
+    originalPrice: 500,
+    rating: 4.8,
+    offer: "10% off",
+    label: "Sale",
+    description: "Rich and aromatic coffee beans sourced globally.",
+  },
+  {
+    id: 12,
+    name: "Cento Crushed Tomatoes",
+    image: Img12,
+    price: 80,
+    originalPrice: 90,
+    rating: 4.4,
+    offer: "12% off",
+    label: "Sale",
+    description: "Freshly crushed tomatoes ideal for pasta and sauces.",
+  },
+  {
+    id: 13,
+    name: "Fresh Pineapple",
+    image: Img13,
+    price: 70,
+    originalPrice: 85,
+    rating: 4.5,
+    offer: "18% off",
+    label: "Sale",
+    description: "Juicy and sweet pineapples perfect for desserts and juices.",
+  },
+];
+
+export default Products;
